@@ -135,13 +135,6 @@ figures_06/
 figures_07/
 figures_08/
 
-models_02/
-models_03/
-models_04/
-models_05/
-models_06/
-models_07/
-models_08/
 ```
 
 Các file quan trọng nhất để viết báo cáo thường nằm trong:
