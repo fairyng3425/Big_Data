@@ -1,0 +1,5 @@
+﻿task,dataset,sort_metric,reason
+target_1h / target_24h,3y / 20y,val_daylight_RMSE,Point forecasting is evaluated on daylight hours. validation daylight RMSE is used for model selection; test metrics are kept for final reporting.
+daily_total,3y / 20y,val_RMSE or val_daily_total_RMSE,Daily total is ranked by validation RMSE. Derived 24h totals are clearly labelled by comparison_scope.
+multihorizon,20y,val_daylight_RMSE,"24h sequence forecasting is selected by validation daylight sequence RMSE. h1/h12/h24 are diagnostics, not the main ranking metric."
+target_1h / target_24h derived from notebook 07,20y,separate reference table,"h1/h24 metrics from a 24h multihorizon model are not direct point-forecasting models, so they are not mixed into point-ranking tables."

@@ -1,0 +1,5 @@
+task,dataset_years,missing_expected_models,ensemble_rows_shown,note
+daily_total,20y,"LinearRegression, Ridge, RandomForest, SVR_RBF, MLP, HistGradientBoosting, XGBoost, CatBoost, PatchTST, TSMixer, iTransformer",0,Không tự tạo kết quả nếu không thấy trong notebook 02-08.
+multihorizon,20y,"PatchTST, TSMixer, iTransformer",0,Không tự tạo kết quả nếu không thấy trong notebook 02-08.
+target_1h,20y,"PatchTST, TSMixer, iTransformer",0,Không tự tạo kết quả nếu không thấy trong notebook 02-08.
+target_24h,20y,"PatchTST, TSMixer, iTransformer",0,Không tự tạo kết quả nếu không thấy trong notebook 02-08.

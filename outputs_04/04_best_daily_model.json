@@ -1,0 +1,8 @@
+{
+  "best_daily_model": "Ridge",
+  "selection_metric": "val_RMSE",
+  "target": "target_next_day_total_kJ_m2",
+  "val_RMSE": 2816.7756389176616,
+  "test_RMSE": 2978.15748408307,
+  "test_R2": 0.700323224067688
+}

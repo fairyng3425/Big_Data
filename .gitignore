@@ -1,0 +1,12 @@
+# Generated model artifacts can be recreated by running the notebooks.
+models*/
+
+# Python and notebook working files.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and secrets.
+.venv/
+venv/
+.env

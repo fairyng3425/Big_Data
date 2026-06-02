@@ -1,0 +1,3 @@
+experiment,task,selected_by,best_model,val_RMSE,test_RMSE,test_R2,test_skill_vs_persistence,test_skill_vs_seasonal7,test_skill_vs_seasonal365,n_train_days,n_val_days,n_test_days,n_features
+05_daily_total_20y_2004_2023,next_day_daily_total,validation_RMSE,CatBoost,2324.939979436147,2701.754582059258,0.8054749352628049,0.1715687224980037,0.34094720918400956,0.36804165824053425,5114.0,731.0,1094.0,126.0
+04_daily_total_3y_2016_2018,next_day_daily_total,validation_RMSE,Ridge,2816.7756389176616,2978.15748408307,0.700323224067688,0.0714746855095858,0.3125898147979633,,,,,

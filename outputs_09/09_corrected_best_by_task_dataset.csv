@@ -1,0 +1,9 @@
+﻿task,dataset_years,best_scope,model,model_family,source_notebook,sort_metric,sort_RMSE,test_R2,note
+target_1h,3y,direct_point,Ensemble_XGBoost_compact_w0.7_GRU_w0.3,ensemble,03_deep_learning_ensemble_interpretability,val_daylight_RMSE,105.7364944583734,0.9890863299369812,Best by the task-specific validation ranking metric.
+target_1h,20y,direct_point,PatchTST,deep_standard,08_standard_deep_sequence_models_all_tasks,val_daylight_RMSE,88.55055163753921,0.9961239099502563,Best by the task-specific validation ranking metric.
+target_24h,3y,direct_point,Ensemble_CatBoost_compact_w0.2_LSTM_w0.8,ensemble,03_deep_learning_ensemble_interpretability,val_daylight_RMSE,291.5726974319709,0.9225102225569856,Best by the task-specific validation ranking metric.
+target_24h,20y,direct_point,PatchTST,deep_standard,08_standard_deep_sequence_models_all_tasks,val_daylight_RMSE,236.601177485447,0.9768573045730592,Best by the task-specific validation ranking metric.
+daily_total,3y,direct_daily,Ridge,tabular_ml,04_daily_total_forecasting_final_comparison,val_RMSE,2816.7756389176616,0.700323224067688,Best by the task-specific validation ranking metric.
+daily_total,20y,direct_daily,CatBoost,boosting/tree,05_extended_daily_total_forecasting_20y,val_RMSE,2324.939979436147,0.8054749352628049,Best by the task-specific validation ranking metric.
+daily_total_direct_only,20y,direct_daily,CatBoost,boosting/tree,05_extended_daily_total_forecasting_20y,val_RMSE,2324.939979436147,0.8054749352628049,"Best by validation RMSE among direct daily-total models only, excluding derived 24h totals."
+multihorizon,20y,direct_multihorizon,Ensemble_HistGradientBoosting_w0.5_TSMixer-lite_w0.5,ensemble,07_compact_multihorizon_24h_sequence_forecasting,val_daylight_RMSE,225.29830052343937,0.976101815700531,Best by the task-specific validation ranking metric.
