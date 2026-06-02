@@ -113,7 +113,7 @@ Trong báo cáo nên hiển thị cả validation metric và test metric. Valida
 
 ## 8. Các thư mục output chính
 
-Các notebook lưu kết quả vào những thư mục sau:
+Các notebook lưu kết quả vào những thư mục tương ứng (notebook 0x sẽ xuất output ra output_0x và hình ra figures_0x) sau:
 
 ```text
 outputs/
